@@ -1,32 +1,25 @@
 html {
-    position: relative;
-   
+  position: relative;
 }
 body {
-    margin-bottom: 10vh;
-     height: 300px;
+  margin-bottom: 10vh;
+  height: 300px;
 }
-
 footer {	
-height: 150px;
-background-color: #212121;
-color: #dbdbdb;
-font-size: 15px;
+  height: 150px;
+  background-color: #212121;
+  color: #dbdbdb;
+  font-size: 15px;
 }
-
-
 footer a {
-color: #ffffff;
-font-size: 15px;
-text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
 }
-
-
 footer a:focus,a:hover {
-    color: #ffffff;
-    text-decoration: underline
+  color: #ffffff;
+  text-decoration: underline
 }
-
 footer ul li{
- 	margin-top: 2%;
+  margin-top: 2%;
  }
