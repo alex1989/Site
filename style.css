@@ -1,12 +1,14 @@
-html {
-  position: relative;
+html, body {
+  height: 100%;
 }
-body {
-  margin-bottom: 10vh;
-  height: 300px;
+body {	
+  display: flex;
+  flex-direction: column; 
 }
-footer {	
-  height: 150px;
+.content{
+	flex-grow: 1;
+}
+footer {		
   background-color: #212121;
   color: #dbdbdb;
   font-size: 15px;
