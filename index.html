@@ -20,8 +20,8 @@
   </head>
   <body>
   	<!--Menu-->
-    <nav class="navbar navbar-default navbar-inverse navbar-static-top">
-      <div class="container">
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container my-style">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -38,9 +38,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Themes <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Theme1</a></li>
-                <li><a href="#">Theme2</a></li>
-                <li><a href="#">Theme3</a></li>
+                <li><a href="#" onclick="changeTheme('#212121')">Dark theme</a></li>
+                <li><a href="#" onclick="changeTheme('#bbbbbb')">Gray theme</a></li>
+                <li><a href="#" onclick="changeTheme('#ffffff','#000000')">White theme</a></li>
               </ul> 
             </li>
           </ul>
@@ -52,16 +52,17 @@
     </nav>
     <div class="content">
     </div>
-    <footer>
+    <footer class="my-style">
       <div class="container">
         <ul class="list-unstyled list-inline">
           <li> <a href="http://github.com/"> GitHub </a> </li>
           <li> <a href="http://twitter.com/"> Twitter</a> </li>
           <li> <a href="#"> About </a> </li>
         </ul>
-        <p>Page created by <a href="#">Leonid Voevodov</a></p>
+        <p>Page created by <a href="#">Leonid Voevodov</a></p>    
       </div>
     </footer>
+   <script src="Theme.js" type="text/javascript"></script>
   </body>
 </html>
 

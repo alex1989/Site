@@ -8,9 +8,7 @@ body {
 .content{
 	flex-grow: 1;
 }
-footer {		
-  background-color: #212121;
-  color: #dbdbdb;
+footer {
   font-size: 15px;
 }
 footer a {
@@ -25,3 +23,7 @@ footer a:focus,a:hover {
 footer ul li{
   margin-top: 2%;
  }
+.my-style{
+	color: #dbdbdb;
+	background-color: #212121;
+}
