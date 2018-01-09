@@ -12,18 +12,24 @@ footer {
   font-size: 15px;
 }
 footer a {
-  color: #ffffff;
-  font-size: 15px;
-  text-decoration: none;
+  text-decoration: underline;
 }
-footer a:focus,a:hover {
+footer a:focus,footer a:hover {
   color: #ffffff;
-  text-decoration: underline
+  /*text-decoration: underline*/
 }
 footer ul li{
   margin-top: 2%;
  }
 .my-style{
-	color: #dbdbdb;
-	background-color: #212121;
+  color: #dbdbdb;
+  background-color: #212121;
 }
+a {
+	color: white;
+}
+
+
+
+
+
