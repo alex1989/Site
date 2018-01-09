@@ -7,6 +7,7 @@ function changeTheme(selectBackColor='#212121', selectColor="#dbdbdb") {
 
   elements = document.querySelectorAll("a");
   for (var i = 0; i < elements.length; i++) {
+  	elements[i].style.backgroundColor=selectBackColor;
     elements[i].style.color=selectColor;
   }	
 
