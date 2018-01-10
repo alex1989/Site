@@ -14,7 +14,6 @@ footer {
   font-size: 15px;
 }
 footer a {
-  color: #ffffff;
   font-size: 15px;
   text-decoration: none;
 }
@@ -24,4 +23,46 @@ footer a:focus,a:hover {
 }
 footer ul li{
   margin-top: 2%;
- }
+}
+/*theme1*/
+.theme1{
+  background-color: #395a7d;
+  color: white;
+}
+.theme1 a:hover, .theme1 a:focus{
+  color: #22b68f;
+}
+.theme1 a{
+  color: white;
+}
+/*theme2*/
+.theme2{
+  background-color: #000000;
+  color: white;
+}
+.theme2 a:hover, .theme1 a:focus{
+  color: red;
+}
+.theme2 a{
+  color: white;
+}
+ /*theme3*/
+.theme3{
+  background-color: #33a0d4;
+  color: white;
+}
+.theme3 a:hover, .theme1 a:focus{
+  color: #feffff;
+}
+.theme3 a{
+  color: #dbdbdb;
+}
+
+.nav>li>a:focus,.nav>li>a:hover{
+  text-decoration:none;
+  background-color:rgba(0, 0, 0, 0);
+}
+.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{
+  background-color: rgba(0, 0, 0, 0);
+  border-color:#337ab7;
+}
